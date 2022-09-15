@@ -8,6 +8,7 @@ import pymongo
 mongo_dbb = motor.motor_asyncio.AsyncIOMotorClient(MONGO_DB)
 SPAMBOT = "ZAIDUSERBOT"
 cli = mongo_dbb["ZAIDUSERBOT"]
+db_x = cli
 
 class Database:
     def get(self, module: str, variable: str, default=None):

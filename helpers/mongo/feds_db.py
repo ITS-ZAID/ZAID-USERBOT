@@ -1,4 +1,4 @@
-from helpers.mongo import cli as db_x
+from helpers.mongo import db_x
 
 fed_s = db_x["FEDS"]
 
